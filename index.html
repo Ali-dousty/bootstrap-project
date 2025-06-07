@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="css/custom1.css">
+    <title>Document</title>
+</head>
+
+<body class="bg-dark_blue text-light">
+    <header>
+        <!-------------- navigation ------------>
+        <nav class="navbar navbar-expand-lg mt-5">
+            <div class="container-fluid container-lg">
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navCollapse"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="toggle navigation">
+                    <img src="images/textalignright.png" alt="navbar icon">
+                </button>
+                <a class="navbar-brand fs-1 fw-semibold text-light">Iran NFT</a>
+                <div class="d-lg-none">
+                    <a href="#">
+                        <svg width="24px" height="24px" viewBox="0 -0.5 25 25" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0" />
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+                            <g id="SVGRepo_iconCarrier">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M5.5 11.1455C5.49956 8.21437 7.56975 5.69108 10.4445 5.11883C13.3193 4.54659 16.198 6.08477 17.32 8.79267C18.4421 11.5006 17.495 14.624 15.058 16.2528C12.621 17.8815 9.37287 17.562 7.3 15.4895C6.14763 14.3376 5.50014 12.775 5.5 11.1455Z"
+                                    stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M15.989 15.4905L19.5 19.0015" stroke="#ffffff" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </g>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg width="24px" height="24px" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"
+                            stroke-width="3" stroke="#ffffff" fill="none">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0" />
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+                            <g id="SVGRepo_iconCarrier">
+                                <circle cx="32" cy="18.14" r="11.14" />
+                                <path d="M54.55,56.85A22.55,22.55,0,0,0,32,34.3h0A22.55,22.55,0,0,0,9.45,56.85Z" />
+                            </g>
+                        </svg>
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse justify-content-center fs-5" id="navCollapse">
+                    <ul class="navbar-nav gap-3">
+                        <li class="nav-item"><a href="#" class="nav-link color_orange" id="activeNav">صفحه اصلی</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link color_gray">آموزش NFT</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link color_gray">گالری NFT ایرانی</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link color_gray">تبلیغ NFT</a></li>
+                    </ul>
+
+                </div>
+                <a href="#" class="me-4 d-none d-lg-inline-block">
+                    <svg width="32px" height="32px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        stroke="#ffffff">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0" />
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+                        <g id="SVGRepo_iconCarrier">
+                            <path
+                                d="M2 2H3.74001C4.82001 2 5.67 2.93 5.58 4L4.75 13.96C4.61 15.59 5.89999 16.99 7.53999 16.99H18.19C19.63 16.99 20.89 15.81 21 14.38L21.54 6.88C21.66 5.22 20.4 3.87 18.73 3.87H5.82001"
+                                stroke="#ffffff" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path opacity="0.4"
+                                d="M16.25 22C16.9404 22 17.5 21.4404 17.5 20.75C17.5 20.0596 16.9404 19.5 16.25 19.5C15.5596 19.5 15 20.0596 15 20.75C15 21.4404 15.5596 22 16.25 22Z"
+                                stroke="#ffffff" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path opacity="0.4"
+                                d="M8.25 22C8.94036 22 9.5 21.4404 9.5 20.75C9.5 20.0596 8.94036 19.5 8.25 19.5C7.55964 19.5 7 20.0596 7 20.75C7 21.4404 7.55964 22 8.25 22Z"
+                                stroke="#ffffff" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path opacity="0.4" d="M9 8H21" stroke="#ffffff" stroke-width="1.5" stroke-miterlimit="10"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </g>
+                    </svg>
+                </a>
+                <div class="bg_orange p-3 rounded-3 d-none d-lg-inline-block">
+                    <a href="#">
+                        <svg width="24px" height="24px" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"
+                            stroke-width="3" stroke="#ffffff" fill="none">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0" />
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+                            <g id="SVGRepo_iconCarrier">
+                                <circle cx="32" cy="18.14" r="11.14" />
+                                <path d="M54.55,56.85A22.55,22.55,0,0,0,32,34.3h0A22.55,22.55,0,0,0,9.45,56.85Z" />
+                            </g>
+                        </svg>
+                        <span class="text-light ms-2 fs-5 fw-semibold">ورود / ثبت نام</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-------------- header ------------->
+        <div class="container-fluid container-lg" id="header-image">
+            <div class="row mt-5">
+                <div class="col-lg-7 col-12">
+                    <h4 class="mt-3 py-4 text-center text-lg-start">بازار جهانی توکن‌های غیرمثلی بر بستر بلاکچین پلیگان
+                    </h4>
+                    <h2 class="fw-bold text-center text-lg-start" style="font-size: 64px;">دنیای NFT های <span
+                            class="color_orange">شگفت
+                            انگیز</span></h2>
+                    <p class="fs-4 color_gray mt-5 d-lg-block d-none">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                        صنعت چاپ و با
+                        استفاده از طراحان گرافیک است</p>
+                    <div class="gap-2 mt-5 d-lg-flex d-none">
+                        <form class="rounded-pill align-content-center py-3 px-4 d-flex gap-2" id="header-form">
+                            <button class="border-0 bg-transparent">
+                                <img src="images/search.png" alt="">
+                            </button>
+                            <input type="text" class="bg-transparent border-0 fs-5 text-secondary"
+                                placeholder="جستجو NFT ها و هنرمندان">
+                        </form>
+                        <a href="#" class="text-light bg_gradient rounded-5 py-3 px-5 fs-5 fw-semibold">دریافت مشاوره
+                            رایگان</a>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-12 ">
+                    <div class="w-100 position-relative">
+                        <img src="images/Group 196.png" alt="header image" class="img-fluid w-100 mx-auto mx-lg-0">
+                        <img src="images/Path.png" alt="" class="position-absolute"
+                            style="width: 38px; height: 32px; top: 71px; right: 72px;">
+                    </div>
+
+                    <p class="fs-4 color_gray d-lg-none text-center">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از
+                        صنعت چاپ و با
+                        استفاده از طراحان گرافیک است</p>
+                    <div class="mt-5 d-lg-none text-center">
+                        <a href="#" class="text-light bg_gradient rounded-4 py-3 px-5 fs-5 fw-semibold">دریافت مشاوره
+                            رایگان</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-------- Wallet --------->
+    <main>
+        <div class="container-fluid container-lg">
+            <div class="d-flex justify-content-between mt_8rem mb-5">
+                <div class="d-flex align-items-center">
+                    <div class="bg_gradient p-3 rounded-circle">
+                        <img src="images/wallet.png" alt="wallet image" style="width: 37px; height: 37px;">
+                    </div>
+                    <div class="ms-2">
+                        <h6 class="fs-4">کیف پول</h6>
+                        <h6 class="fs-5">Wallet</h6>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center gap-2">
+                    <a href="#" class="fs-4 text-light">مشاهده همه</a>
+                    <svg width="36px" height="36px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M11.7071 4.29289C12.0976 4.68342 12.0976 5.31658 11.7071 5.70711L6.41421 11H20C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13H6.41421L11.7071 18.2929C12.0976 18.6834 12.0976 19.3166 11.7071 19.7071C11.3166 20.0976 10.6834 20.0976 10.2929 19.7071L3.29289 12.7071C3.10536 12.5196 3 12.2652 3 12C3 11.7348 3.10536 11.4804 3.29289 11.2929L10.2929 4.29289C10.6834 3.90237 11.3166 3.90237 11.7071 4.29289Z"
+                                fill="#ffffff"></path>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+            <div class="row row-gap-3 my-5">
+
+                <div class="col-6 col-sm-4 col-xl-2">
+                    <div class="wallet_box  rounded  wallet_box_6 position-relative">
+                        <div class="rounded h-100 d-flex flex-column align-items-center justify-content-center">
+                            <div>
+                                <img src="images/logos_metamask-icon.png" alt="">
+                            </div>
+                            <div>
+                                <span class="text-secondary fs-4 mt-4 d-block">Meta Mask</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-xl-2">
+                    <div class="wallet_box  rounded  wallet_box_2 position-relative">
+                        <div class="rounded h-100 d-flex flex-column align-items-center justify-content-center">
+                            <div>
+                                <img src="images/pngaaa 1.png" alt="">
+                            </div>
+                            <div>
+                                <span class="text-secondary fs-4 mt-4 d-block">Coinbase</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-xl-2">
+                    <div class="wallet_box  rounded  wallet_box_3 position-relative">
+                        <div class="rounded h-100 d-flex flex-column align-items-center justify-content-center">
+                            <div>
+                                <img src="images/image 1.png" alt="">
+                            </div>
+                            <div>
+                                <span class="text-secondary fs-4 mt-4 d-block">Exodus</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-xl-2">
+                    <div class="wallet_box  rounded  wallet_box_4 position-relative">
+                        <div class="rounded h-100 d-flex flex-column align-items-center justify-content-center">
+                            <div>
+                                <img src="images/uniswap-coin-uni-cryptocurrency-icon-vector-39141450 1.png" alt="">
+                            </div>
+                            <div>
+                                <span class="text-secondary fs-4 mt-4 d-block">Uniswap</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-xl-2">
+                    <div class="wallet_box  rounded  wallet_box_5 position-relative">
+                        <div class="rounded h-100 d-flex flex-column align-items-center justify-content-center">
+                            <div>
+                                <img src="images/Group 25.png" alt="">
+                            </div>
+                            <div>
+                                <span class="text-secondary fs-4 mt-4 d-block">Meta Mask</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-4 col-xl-2">
+                    <div class="wallet_box  rounded  wallet_box_6 position-relative">
+                        <div class="rounded h-100 d-flex flex-column align-items-center justify-content-center">
+                            <div>
+                                <img src="images/logos_metamask-icon.png" alt="">
+                            </div>
+                            <div>
+                                <span class="text-secondary fs-4 mt-4 d-block">Meta Mask</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---------- hot bids ----------->
+            <div class="position-relative">
+                <div class="d-flex justify-content-between align-items-center mt_8rem">
+                    <div class="d-flex align-items-center">
+                        <div class="bg_gradient rounded-circle p-3">
+                            <img class="" src="images/fire.png" alt="wallet image" style="width: 37px; height: 37px;">
+                        </div>
+                        <div class="ms-2">
+                            <h6 class="fs-4">پیشنهادهای داغ</h6>
+                            <h6 class="fs-5">hot bids</h6>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                        <a href="#" class="fs-4 text-light">مشاهده همه</a>
+                        <svg width="36px" height="36px" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M11.7071 4.29289C12.0976 4.68342 12.0976 5.31658 11.7071 5.70711L6.41421 11H20C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13H6.41421L11.7071 18.2929C12.0976 18.6834 12.0976 19.3166 11.7071 19.7071C11.3166 20.0976 10.6834 20.0976 10.2929 19.7071L3.29289 12.7071C3.10536 12.5196 3 12.2652 3 12C3 11.7348 3.10536 11.4804 3.29289 11.2929L10.2929 4.29289C10.6834 3.90237 11.3166 3.90237 11.7071 4.29289Z"
+                                    fill="#ffffff"></path>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+                <div class="position-absolute d-none d-lg-inline-block my-5" id="main-shadow"></div>
+                <div class="row gap-3 mx-md-auto my-5">
+                    <div class="col-12 col-md-6 col-lg-4 position-relative bg-light bg-opacity-10 rounded-4"
+                        id="hot-bids-cols">
+                        <img src="images/image 5 (2).png" class="img-fluid w-100 mt-3" alt="">
+                        <div class="position-absolute top-0 end-0 d-flex mt-4 me-3">
+                            <div
+                                class="me-3 px-4 py-2 d-flex flex-row-reverse rounded-pill align-items-center gap-2 bg_blur num_font">
+                                <span class="fs_22px">2h</span><span class="fs_22px">34m</span><span
+                                    class="fs_22px">8s</span>
+                            </div>
+                            <div class="rounded-circle p-3 bg_blur">
+                                <img src="images/heart.png" alt="">
+                            </div>
+                        </div>
+                        <div class="text-end me-2">
+                            <div class="mt-3">
+                                <h6 class="fs-2 fw-semibold">Digi boy</h6>
+                                <h6 class="fs-4 mt-3">By Negar</h6>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <div>
+                                    <span class="fs_22px">آخرین پیشنهاد</span>
+                                </div>
+                                <div class="fs_22px">
+                                    <span>ETH</span>
+                                    <span>2,78</span>
+                                    <img src="images/Etherum.png" alt="etherum logo">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="my-4">
+                            <a href="#" class="bg_gradient px-4 py-2 rounded-3 text-light fs_22px">پیشنهاد سریع</a>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 bg-light bg-opacity-10 rounded-4 position-relative"
+                        id="hot-bids-cols">
+                        <img src="images/image 5 (1).png" class="img-fluid w-100 mt-3" alt="">
+                        <div class="position-absolute top-0 end-0 d-flex mt-4 me-3">
+                            <div
+                                class="me-3 px-4 py-2 d-flex flex-row-reverse rounded-pill align-items-center gap-2 bg_blur num_font">
+                                <span class="fs_22px">2h</span><span class="fs_22px">34m</span><span
+                                    class="fs_22px">8s</span>
+                            </div>
+                            <div class="rounded-circle p-3 bg_blur">
+                                <img src="images/heart.png" alt="">
+                            </div>
+                        </div>
+                        <div class="text-end me-2">
+                            <div class="mt-3">
+                                <h6 class="fs-2 fw-semibold">Angry Ape</h6>
+                                <h6 class="fs-4 mt-3">By Farshad</h6>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <div>
+                                    <span class="fs_22px">آخرین پیشنهاد</span>
+                                </div>
+                                <div class="fs_22px">
+                                    <span>ETH</span>
+                                    <span>2,78</span>
+                                    <img src="images/Etherum.png" alt="etherum logo">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="my-4">
+                            <a href="#" class="bg_gradient px-4 py-2 rounded-3 text-light fs_22px">پیشنهاد سریع</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 bg-light bg-opacity-10 rounded-4 position-relative"
+                        id="hot-bids-cols">
+                        <div class="position-absolute">
+
+                        </div>
+                        <img src="images/image 5.png" class="img-fluid w-100 mt-3" alt="">
+                        <div class="position-absolute top-0 end-0 d-flex mt-4 me-3">
+                            <div
+                                class="me-3 px-4 py-2 d-flex flex-row-reverse rounded-pill align-items-center gap-2 bg_blur num_font">
+                                <span class="fs_22px">2h</span><span class="fs_22px">34m</span><span
+                                    class="fs_22px">8s</span>
+                            </div>
+                            <div class="rounded-circle p-3 bg_blur">
+                                <img src="images/heart.png" alt="">
+                            </div>
+                        </div>
+                        <div class="text-end me-2">
+                            <div class="mt-3">
+                                <h6 class="fs-2 fw-semibold">Virtualland</h6>
+                                <h6 class="fs-4 mt-3">By Amirhossein</h6>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mt-4">
+                                <div>
+                                    <span class="fs_22px">آخرین پیشنهاد</span>
+                                </div>
+                                <div class="fs_22px">
+                                    <span>ETH</span>
+                                    <span>2,78</span>
+                                    <img src="images/Etherum.png" alt="etherum logo">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="my-4">
+                            <a href="#" class="bg_gradient px-4 py-2 rounded-3 text-light fs_22px">پیشنهاد سریع</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-------- vizhegiha --------->
+            <div class="row gap-3 row-gap-5 mt_6">
+                <div
+                    class="col-12 col-md-6 col-lg-4 px-4 border_green rounded-3 w_33 position-relative bg_gradient_green mt-4 mt-lg-0">
+                    <div class="position-absolute px-4 py-3 bg-gradient_dark position_top">
+                        <img src="images/electric.png" alt="">
+                    </div>
+                    <h5 class="mt-5 pt-3 fs-2">سرعت</h5>
+                    <p class="mt-3 pb-3 fs_22px">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
+                        از طراحان گرافیک است</p>
+                </div>
+                <div
+                    class="col-12 col-md-6 col-lg-4 px-4 border_blue rounded-3 w_33 position-relative bg_gradient_blue mt-4 mt-lg-0">
+                    <div class="position-absolute px-4 py-3 bg-gradient_dark position_top">
+                        <img src="images/securityuser.png" alt="">
+                    </div>
+                    <h5 class="mt-5 pt-3 fs-2">امنیت</h5>
+                    <p class="mt-3 pb-3 fs_22px">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
+                        از طراحان گرافیک است</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 px-4 border_red rounded-3 w_33 position-relative bg_gradient_red mt-4 mt-lg-0">
+                    <div class="position-absolute px-4 py-3 bg-gradient_dark position_top">
+                        <img src="images/call.png" alt="">
+                    </div>
+                    <h5 class="mt-5 pt-3 fs-2">پشتیبانی</h5>
+                    <p class="mt-3 pb-3 fs_22px">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
+                        از طراحان گرافیک است</p>
+                </div>
+            </div>
+            <!-------- trends -------->
+            <div class="d-flex justify-content-between mt_8rem mb-5">
+                <div class="d-flex align-items-center">
+                    <div class="bg_gradient p-3 rounded-circle">
+                        <img src="images/star.png" alt="wallet image" style="width: 37px; height: 37px;">
+                    </div>
+                    <div class="ms-2">
+                        <h6 class="fs-4">پربازدیدترین ها</h6>
+                        <h6 class="fs-5">trends</h6>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center gap-2">
+                    <a href="#" class="fs-4 text-light">مشاهده همه</a>
+                    <svg width="36px" height="36px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M11.7071 4.29289C12.0976 4.68342 12.0976 5.31658 11.7071 5.70711L6.41421 11H20C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13H6.41421L11.7071 18.2929C12.0976 18.6834 12.0976 19.3166 11.7071 19.7071C11.3166 20.0976 10.6834 20.0976 10.2929 19.7071L3.29289 12.7071C3.10536 12.5196 3 12.2652 3 12C3 11.7348 3.10536 11.4804 3.29289 11.2929L10.2929 4.29289C10.6834 3.90237 11.3166 3.90237 11.7071 4.29289Z"
+                                fill="#ffffff"></path>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+            <div class="row gap-2 mt_17rem row-gap-5">
+                <div class="col-12 col-lg-4 position-relative bg-dark rounded-4 p-0 w_33 mt-lg-0 mt_custom">
+                    <img src="images/image 6.png" alt="" class="position-absolute trends_cols">
+                    <div class="mt_5rem p-4 text-end">
+                        <h5 class="fs-2 fw-semibold">D'EVOLs</h5>
+                        <div class="d-flex align-content-center justify-content-between">
+                            <div class="d-flex align-content-center"><span
+                                    class="fw-semibold fs_22px me-2">2,78ETH</span><img src="images/Etherum.png" alt="">
+                            </div>
+                            <span class="fs-4">By Reza</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-12 col-lg-4 position-relative bg-dark rounded-4 p-0 w_33" id="trends_col-2">
+                    <img src="images/image 6 (1).png" alt="" class="position-absolute trends_cols w-100">
+                    <div class="mt_5rem p-4 text-end">
+                        <h5 class="fs-2 fw-semibold">D'EVOLs</h5>
+                        <div class="d-flex align-content-center justify-content-between">
+                            <div class="d-flex align-content-center"><span
+                                    class="fw-semibold fs_22px me-2">2,78ETH</span><img src="images/Etherum.png" alt="">
+                            </div>
+                            <span class="fs-4">By Amir</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 position-relative bg-dark rounded-4 p-0 w_33" id="trends_col-3">
+                    <img src="images/image 6 (2).png" alt="" class="position-absolute trends_cols w-100">
+                    <div class="mt_5rem p-4 text-end">
+                        <h5 class="fs-2 fw-semibold">D'EVOLs</h5>
+                        <div class="d-flex align-content-center justify-content-between">
+                            <div class="d-flex align-content-center"><span
+                                    class="fw-semibold fs_22px me-2">2,78ETH</span><img src="images/Etherum.png" alt="">
+                            </div>
+                            <span class="fs-4">By Mahsa</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!------------ Top Creators ---------->
+            <div class="d-flex justify-content-between mt_8rem mb-5">
+                <div class="d-flex align-items-center">
+                    <div class="bg_gradient p-3 rounded-circle">
+                        <img src="images/person-2.png" alt="wallet image" style="width: 37px; height: 37px;">
+                    </div>
+                    <div class="ms-2">
+                        <h6 class="fs-4">هنرمندان برتر</h6>
+                        <h6 class="fs-5">Top Creators</h6>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center gap-2">
+                    <a href="#" class="fs-4 text-light">مشاهده همه</a>
+                    <svg width="36px" height="36px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M11.7071 4.29289C12.0976 4.68342 12.0976 5.31658 11.7071 5.70711L6.41421 11H20C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13H6.41421L11.7071 18.2929C12.0976 18.6834 12.0976 19.3166 11.7071 19.7071C11.3166 20.0976 10.6834 20.0976 10.2929 19.7071L3.29289 12.7071C3.10536 12.5196 3 12.2652 3 12C3 11.7348 3.10536 11.4804 3.29289 11.2929L10.2929 4.29289C10.6834 3.90237 11.3166 3.90237 11.7071 4.29289Z"
+                                fill="#ffffff"></path>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+            <div class="row gap-2">
+                <div class="col-12 col-md-6 col-lg-4 bg-dark p-4 border border-secondary rounded-3 w_33">
+                    <div class="d-flex flex-row-reverse gap-3 align-items-center text-end">
+                        <div><img src="images/Ellipse 10.png" alt=""></div>
+                        <div class="d-flex flex-column w-100">
+                            <div>
+                                <h6 class="fs_22px">Negar77</h6>
+                            </div>
+                            <div><img src="images/Group 104.png" alt=""></div>
+                            <div class="d-flex justify-content-between mt-2"><span class="fs-md-6 buy_num">فروش
+                                    کل:</span><span class="buy_num">56.32ETH</span></div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 bg-dark p-4 border border-secondary rounded-3 w_33">
+                    <div class="d-flex flex-row-reverse gap-3 align-items-center text-end">
+                        <div><img src="images/Ellipse 10 (1).png" alt=""></div>
+                        <div class="d-flex flex-column w-100">
+                            <div>
+                                <h6 class="fs_22px">Mahdi_nft</h6>
+                            </div>
+                            <div><img src="images/Group 104.png" alt=""></div>
+                            <div class="d-flex justify-content-between mt-2"><span class="fs-md-6 buy_num">فروش
+                                    کل:</span><span class="buy_num">56.32ETH</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 bg-dark p-4 border border-secondary rounded-3 w_33">
+                    <div class="d-flex flex-row-reverse gap-3 align-items-center text-end">
+                        <div><img src="images/Group 112.png" alt=""></div>
+                        <div class="d-flex flex-column w-100">
+                            <div>
+                                <h6 class="fs_22px">Amirhossein75</h6>
+                            </div>
+                            <div><img src="images/Group 104.png" alt=""></div>
+                            <div class="d-flex justify-content-between mt-2"><span class="fs-md-6 buy_num">فروش
+                                    کل:</span><span class="buy_num">56.32ETH</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 bg-dark p-4 border border-secondary rounded-3 w_33">
+                    <div class="d-flex flex-row-reverse gap-3 align-items-center text-end">
+                        <div><img src="images/Ellipse 10 (5).png" alt=""></div>
+                        <div class="d-flex flex-column w-100">
+                            <div>
+                                <h6 class="fs_22px">Kamran1995</h6>
+                            </div>
+                            <div><img src="images/Group 104.png" alt=""></div>
+                            <div class="d-flex justify-content-between mt-2"><span class="fs-md-6 buy_num">فروش
+                                    کل:</span><span class="buy_num">56.32ETH</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 bg-dark p-4 border border-secondary rounded-3 w_33">
+                    <div class="d-flex flex-row-reverse gap-3 align-items-center text-end">
+                        <div><img src="images/Ellipse 10 (4).png" alt=""></div>
+                        <div class="d-flex flex-column w-100">
+                            <div>
+                                <h6 class="fs_22px">Mahsa_art</h6>
+                            </div>
+                            <div><img src="images/Group 104.png" alt=""></div>
+                            <div class="d-flex justify-content-between mt-2"><span class="fs-md-6 buy_num">فروش
+                                    کل:</span><span class="buy_num">56.32ETH</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 bg-dark p-4 border border-secondary rounded-3 w_33">
+                    <div class="d-flex flex-row-reverse gap-3 align-items-center text-end">
+                        <div><img src="images/Ellipse 10 (3).png" alt=""></div>
+                        <div class="d-flex flex-column w-100">
+                            <div>
+                                <h6 class="fs_22px">Amirhossein75</h6>
+                            </div>
+                            <div><img src="images/Group 104.png" alt=""></div>
+                            <div class="d-flex justify-content-between mt-2"><span class="fs-md-6 buy_num">فروش
+                                    کل:</span><span class="buy_num">56.32ETH</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-------- ozviat ---------->
+            <div class="bg_gradient mt_8rem mb-5 p-2 text-center rounded-4 overflow-hidden d-flex align-content-center justify-content-center">
+                <div class="box_shadow position-relative pb-5 rounded-4 w-100">
+                    <img src="images/Group 123.png" alt="" class="position-absolute start-0">
+                    <img src="images/Group 122.png" alt="" class="position-absolute end-0">
+                    <h5 class="fs-1 fw-semibold mt-4">عضویت در خبرنامه</h5>
+                    <p class="opacity-75 my-4 fs_22px" id="ozviat-caption">
+                        به جامعه Art Token بپیوندید تا در جریان آخرین اخبار، ویژگی‌ها و نکات مربوط به این بازار قرار
+                        بگیرید.</p>
+                    <div class="mt-5 bg-light accordion w-50 mx-auto rounded-pill d-flex justify-content-between"
+                        id="inp-1">
+                        <input type="text"
+                            class="text-secondary w-75 border-0 py-1 py-lg-2 ps-4 rounded-start-pill fs-4"
+                            placeholder="ایمیل خود را وارد کنید">
+                        <a href="#"
+                            class="w-25 bg-black py-1 py-lg-2 rounded-end-pill text-light fs-3 fw-semibold">ارسال</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!---------- footer ----------->
+    <footer class="footer_gradient text-center container-fluid container-lg position-relative" style="padding-top: 1px;">
+        <div class="row footer_color mw-100 row-gap-4 px-4 pt-5">
+            <div class="col-12 col-md-4 col-lg-4 text-lg-start position-sticky z_index">
+                <h5 class="fs-1 fw-semibold mb-4">Iran NFT</h5>
+                <p class="fs_14px fs_lg_22px">
+                    بازار دیجیتال جهانی برای خرید و فروش کلکسیون ها و توکن های غیرقابل تعویض (NFT) و کشف اقلام دیجیتال
+                    منحصر به فرد
+                </p>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 order-2 text-start ps-5 position-sticky z_index">
+                <h5 class="fs-6 fs_lg_28px fw-semibold">دسترسی سریع</h5>
+                <ul class="fs_14px lh-lg p-0 pt-4">
+                    <li><a href="#" class="text-light fs_lg_22px">شرایط استفاده از خدمات</a></li>
+                    <li><a href="#" class="text-light fs_lg_22px">سوالات متداول</a></li>
+                    <li><a href="#" class="text-light fs_lg_22px">درباره ما</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 order-last text-start position-sticky z_index">
+                <h5 class="fs-6 fs_lg_28px fw-semibold">حساب من</h5>
+                <ul class="fs_14px pt-3 lh-lg p-0">
+                    <li><a href="#" class="text-light fs_lg_22px">پروفایل</a></li>
+                    <li><a href="#" class="text-light fs_lg_22px">ان اف تی های شما</a></li>
+                    <li><a href="#" class="text-light fs_lg_22px">علاقه مندی ها</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3 order-1 order-md-last position-sticky z_index">
+                <h5 class="fs_22px">به ما بپیوندید</h5>
+                <ul class="d-flex justify-content-center gap-2 pt-4">
+                    <li><a href="#" class="bg_social p-2 rounded-3"><img title="Telegram" src="images/basil_telegram-outline.png" alt=""></a></li>
+                    <li><a href="#" class="bg_social p-2 rounded-3"><img title="X" src="images/ri_twitter-line.png" alt=""></a></li>
+                    <li><a href="#" class="bg_gradient p-2 rounded-3"><img title="Discord" src="images/ic_baseline-discord.png" alt=""></a></li>
+                    <li><a href="#" class="bg_social p-2 rounded-3"><img title="Instagram" src="images/uil_instagram.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

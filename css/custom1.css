@@ -1,0 +1,431 @@
+@font-face {
+    font-family: 'kalameh';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/kalameh/_Woff/KalamehWeb-Black.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'kalameh';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/kalameh/_Woff/KalamehWeb-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'kalameh';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/kalameh/_Woff/KalamehWeb-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'kalameh';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/kalameh/_Woff/KalamehWeb\(FaNum\)-Black.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'kalameh';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/kalameh/_Woff/KalamehWeb\(FaNum\)-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'kalameh';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/kalameh/_Woff/KalamehWeb\(FaNum\)-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'kalameh-num';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/kalameh/_Woff/Gilroy-Bold.woff') format('woff');
+}
+
+@media screen and (max-width: 660px) {
+    header::before {
+        width: 300px;
+        height: 500px;
+        right: 37%;
+        top: -100px;
+        opacity: 0.7;
+        filter: blur(74px);
+        -webkit-filter: blur(60px);
+        overflow: hidden;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #hot-bids-cols {
+        width: 32%;
+    }
+    .w_33 {
+        width: 32%;
+        margin: 0 auto;
+    }
+    #w_40{
+        overflow: hidden;
+    }
+    .fs_lg_22px{
+        font-size: 22px;
+    }
+    .fs_lg_28px{
+        font-size: 28px !important;
+    }
+    
+}
+
+@media screen and (max-width: 992px) {
+    #hot-bids-cols {
+        width: 48%;
+    }
+    .w_33{
+        width: 48%;
+        margin: 0 auto;
+    }
+    #w_40{
+        width: 30%;
+        
+    }
+    .justify_between{
+        justify-content: space-between;
+    }
+    #trends_col-3{
+        margin-top: 20rem;
+    }
+    .mt_custom{
+        margin-top: 6rem;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    #hot-bids-cols {
+        width: 98%;
+        margin: 0 auto;
+    }
+    .w_33{
+        width: 98%;
+        margin: 0 auto;
+    }
+    #trends_col-2, #trends_col-3{
+        margin-top: 36rem;
+    }
+    
+    header::before{
+        display: none;
+    }
+    #inp-1{
+        width: 85% !important;
+        
+    }
+    #ozviat-caption{
+        font-size: 17px;
+    }
+    .fs_14px{
+        font-size: 14px;
+    }
+    .mt_custom{
+        margin-top: 23rem;
+    }
+}
+@media screen and (max-width: 600px){
+    .mt_custom{
+        margin-top: 12rem;
+    }
+    #trends_col-2, #trends_col-3{
+        margin-top: 26rem;
+    }
+}
+@media screen and (max-width: 420px){
+    .mt_custom{
+        margin-top: 2rem;
+    }
+    #trends_col-2, #trends_col-3{
+        margin-top: 16rem;
+    }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'kalameh';
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --color-dark-blue: #07101D;
+    --color-orange: #FF3C00;
+    --color-gray: #949494;
+    --color-footer-color: #091028;
+
+}
+
+.bg-dark_blue {
+    background-color: var(--color-dark-blue);
+}
+
+.bg_orange {
+    background-color: var(--color-orange);
+}
+
+.color_gray {
+    color: var(--color-gray);
+}
+.footer_color{
+    background-color: var(--color-footer-color);
+}
+.color_orange {
+    color: var(--color-orange);
+}
+
+#nav-active {
+    border-bottom: 1px solid var(--color-orange);
+}
+
+.bg_gradient {
+    background: rgb(99, 29, 145);
+    background: linear-gradient(90deg, rgba(99, 29, 145, 1) 0%, rgba(227, 28, 28, 1) 50%, rgba(193, 133, 50, 1) 100%);
+}
+.font_kalameh{
+    font-family: 'kalameh';
+}
+#activeNav {
+    border-bottom: 1px solid var(--color-orange);
+}
+
+#header-form {
+    border: 1px solid var(--color-orange);
+}
+
+header::before {
+    content: '';
+    width: 904px;
+    height: 876px;
+    background-image: radial-gradient(#3d0d58 38%, #070f1c 0);
+    position: absolute;
+    filter: blur(74px);
+    -webkit-filter: blur(74px);
+    right: -276px;
+    top: -266px;
+    opacity: 0.5;
+    z-index: -1;
+}
+.mt_8rem{
+    margin-top: 8rem;
+}
+.mt_17rem{
+    margin-top: 20rem;
+}
+.mt_5rem{
+    margin-top: 5rem;
+}
+
+.wallet_size {
+    width: 184px;
+    height: 188px;
+}
+
+.fs_22px {
+    font-size: 22px;
+}
+
+#wallet-box_corner {
+    width: 43px;
+    height: 22px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    bottom: -3px;
+    right: -14px;
+}
+
+.border_top-1 {
+    border-top: 1px solid #FC280C;
+}
+
+.border_top-2 {
+    border-top: 1px solid #00D1FF;
+}
+
+.border_top-3 {
+    border-top: 1px solid #760AFF;
+}
+
+.border_top-4 {
+    border-top: 1px solid #FE007A;
+}
+
+.border_top-5 {
+    border-top: 1px solid #FFBF1C;
+}
+.wallet_box_2{
+    background-image: linear-gradient(to right bottom,#07101D,#00D1FF);
+
+}
+
+.wallet_box_3{
+    background-image: linear-gradient(to right bottom,#07101D,#760AFF);
+
+}
+.wallet_box_4{
+    background-image: linear-gradient(to right bottom,#07101D,#FE007A);
+
+}
+.wallet_box_5{
+    background-image: linear-gradient(to right bottom,#07101D,#FFBB0D);
+
+}
+.wallet_box_6{
+    background-image: linear-gradient(to right bottom,#07101D,#FC280C);
+
+}
+.wallet_box_2::after{
+    border-top: 1px solid #00D1FF;
+}
+.wallet_box_3::after{
+    border-top: 1px solid #760AFF;
+}
+.wallet_box_4::after{
+    border-top: 1px solid #FE007A;
+}
+.wallet_box_5::after{
+    border-top: 1px solid #FFBB0D;
+}
+.wallet_box_6::after{
+    border-top: 1px solid #FC280C;
+}
+
+.wallet_box{
+   padding: 1px;
+   height: 188px;
+}
+.wallet_box > div{
+    background-color: #161E2A;
+
+
+}
+.wallet_box::after{
+    content: '';
+    width: 43px;
+    height: 22px;
+    background-color: #07101D;
+    position: absolute;
+    right: -14px;
+    bottom: -3px;
+    transform: rotate(-43deg);
+
+}
+.bg_blur {
+    background-color: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(10px);
+
+}
+
+.num_font {
+    font-family: 'kalameh-num';
+}
+
+#main-shadow {
+    width: 340px;
+    height: 200px;
+    background: radial-gradient(62.37% 62.37% at 50% 50%, rgba(8, 164, 117, 0.3) 28.57%, rgba(7, 15, 28, 0.00) 100%);
+    filter: blur(40px);
+    -webkit-filter: blur(40px);
+    left: -25px;
+    bottom: -100px;
+
+}
+
+.border_green {
+    border: 1px solid #00FF1A;
+}
+
+.border_blue {
+    border: 1px solid #5300FF;
+}
+
+.border_red {
+    border: 1px solid #FF1F00;
+}
+
+.mt_6 {
+    margin-top: 200px;
+}
+
+.bg_gradient_green {
+    background: linear-gradient(to right bottom, rgba(9, 255, 0, 0.1), rgba(0, 0, 0, 0.1) 100%);
+}
+
+.bg_gradient_blue {
+    background: linear-gradient(to right bottom, rgba(0, 110, 255, 0.1), rgba(0, 0, 0, 0.1) 100%);
+}
+
+.bg_gradient_red {
+    background: linear-gradient(to right bottom, rgba(249, 44, 44, 0.1), rgba(0, 0, 0, 0.1) 100%);
+}
+
+.bg-gradient_dark {
+    background-color: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(25px);
+    border: 1px solid #9b9b9c;
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+}
+
+.position_top {
+    top: -60px;
+
+}
+.trends_cols{
+    bottom: 8rem;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.footer_gradient{
+    background-image: linear-gradient(to right,#07101D,#ffffff);
+}
+.box_shadow{
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 149px 0 rgba(255, 255, 255, 0.6);
+}
+footer ul{
+    list-style-type: none;
+}
+.bg_social{
+    background-color: #112643;
+}
+footer::before {
+    content: '';
+    width: 40%;
+    height: 90%;
+    background-image: radial-gradient(#791eae 38%, #070f1c 0);
+    position: absolute;
+    filter: blur(74px);
+    -webkit-filter: blur(74px);
+    right: 0;
+    top: 0;
+    opacity: 0.5;
+    z-index: 1;
+}
+.z_index{
+    z-index: 1;
+}
